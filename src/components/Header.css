@@ -1,0 +1,35 @@
+header{
+    background-color: #7C63E6;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header-c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.logo-c{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.m-color{
+    color: #63E6BE;
+}
+
+.profile-c{
+    font-size: 24px;
+    display: flex;
+    align-items: start;
+    column-gap: 20px;
+}

@@ -1,0 +1,15 @@
+main{
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.products-c{
+    width: 100%;
+    max-width: 1400px;
+}
+
+.products{
+    
+}

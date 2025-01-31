@@ -3,7 +3,7 @@ import "./Main.css"
 import ProductsList from "./ProductsList";
 import axios from "axios";
 
-export default function Main() {
+export default function Main({ addToCart }) {
     const [products, setProducts] = useState([]);
 
     function toggleLoading(isLoading) {
@@ -27,7 +27,7 @@ export default function Main() {
         <main>
             <div className="products-c">
                 <h1>All Products</h1>
-                <ProductsList products={products} />
+                <ProductsList products={products} addToCart={addToCart} />
                 <div className="loading-c"></div>
             </div>
         </main>

@@ -1,7 +1,7 @@
 import './Button.css'
 
-export default function Button({text, name}){
+export default function Button({text, name, handleClick}){
     return (
-        <button className={`btn ${name}`}>{text}</button>
+        <button className={`btn ${name}`} onClick={() => handleClick()}>{text}</button>
     );
 }

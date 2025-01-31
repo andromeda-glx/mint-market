@@ -1,0 +1,24 @@
+.search-input{
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px 0 0 10px;
+}
+.search-input:focus{
+    outline: none;
+}
+
+.search-btn{
+    width: 50px;
+    background-color: #CDE663;
+    border-radius: 0 10px 10px 0;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 576px) {
+    .search-btn{
+        width: 100px;
+    }
+}

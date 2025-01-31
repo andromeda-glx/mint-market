@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faHamburger, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css"
 import LogoName from "./LogoName";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping";

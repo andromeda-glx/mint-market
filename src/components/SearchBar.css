@@ -5,6 +5,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 10px 0 0 10px;
+    max-width: 800px;
 }
 .search-input:focus{
     outline: none;

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/andromeda-glx/mint-market/static/css/main.b0c6f010.css",
+    "main.js": "/andromeda-glx/mint-market/static/js/main.c5e989e1.js",
+    "index.html": "/andromeda-glx/mint-market/index.html",
+    "main.b0c6f010.css.map": "/andromeda-glx/mint-market/static/css/main.b0c6f010.css.map",
+    "main.c5e989e1.js.map": "/andromeda-glx/mint-market/static/js/main.c5e989e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0c6f010.css",
+    "static/js/main.c5e989e1.js"
+  ]
+}

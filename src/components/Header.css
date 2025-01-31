@@ -59,6 +59,26 @@ header{
     display: none;
 }
 
+.cart-c{
+    position: relative;
+}
+
+.number-of-items{
+    font-size: 14px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    background-color: #E6638B;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: -8px;
+    right: -8px;
+}
+
 @media screen and (min-width: 576px) and (max-width: 800px) {
     .profile-c{
         display: flex;

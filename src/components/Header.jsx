@@ -5,7 +5,7 @@ import LogoName from "./LogoName";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping";
 import SearchBar from "./SearchBar";
 
-export default function Header() {
+export default function Header({numberOfItems}) {
     return (
         <header>
             <div className="header-c">
@@ -18,6 +18,7 @@ export default function Header() {
                 <div className="profile-c">
                     <div className="cart-c">
                         <FontAwesomeIcon icon={faCartShopping} style={{ color: "#fff" }} />
+                        <span className="number-of-items">{numberOfItems}</span>
                     </div>
                     <FontAwesomeIcon icon={faUser} style={{ color: "#fff" }} />
                 </div>

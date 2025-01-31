@@ -15,7 +15,7 @@ export default function Product({ title, price, category, description, image, ad
                     ${price}
                 </p>
             </div>
-            <Button text={"Buy "} name={"buy-btn"} handleClick={addToCart} />
+            <Button text={"Add to cart"} name={"buy-btn"} handleClick={addToCart} />
         </div>
     );
 }

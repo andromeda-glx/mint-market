@@ -10,8 +10,16 @@
     font-size: 18px;
     font-weight: 700;
     color: #0f0f0f;
-    transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
 }
 .buy-btn:hover{
     background-color: #c1d85d;
+}
+.buy-btn:active{
+    background-color: #e4ff6d;
+    border: 2px solid #c1d85d;
 }

@@ -1,0 +1,17 @@
+.btn{
+    border: none;
+    cursor: pointer;
+}
+
+.buy-btn{
+    background-color: #CDE663;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f0f0f;
+    transition: background-color 0.25s ease;
+}
+.buy-btn:hover{
+    background-color: #c1d85d;
+}

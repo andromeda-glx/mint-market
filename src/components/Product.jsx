@@ -1,5 +1,7 @@
 import Button from "./Button";
 import "./Product.css"
+import formatPrice from "../utils/format-price";
+
 
 export default function Product({ title, price, category, description, image, addToCart }) {
     return (
@@ -12,7 +14,7 @@ export default function Product({ title, price, category, description, image, ad
                     {title}
                 </h2>
                 <p className="product-price">
-                    ${price}
+                    {formatPrice(price)}
                 </p>
             </div>
             <Button text={"Add to cart"} name={"buy-btn"} handleClick={addToCart} />

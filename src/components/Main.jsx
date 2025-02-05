@@ -5,6 +5,7 @@ import axios from "axios";
 
 export default function Main({ addToCart }) {
     const [products, setProducts] = useState([]);
+    const [error, setError] = useState(false);
 
     function toggleLoading(isLoading) {
         const loadingContainer = document.querySelector(".loading-c");
@@ -18,6 +19,7 @@ export default function Main({ addToCart }) {
                 setProducts([...response.data])
             }).catch(e => {
                 console.log("Something went wrong!");
+                setError(true);
             }).finally(() => {
                 toggleLoading(false);
             });
@@ -30,6 +32,9 @@ export default function Main({ addToCart }) {
                 <ProductsList products={products} addToCart={addToCart} />
                 <div className="loading-c"></div>
             </div>
+            {error && <div className="error-c">
+                <p>Something went wrong! Please refresh the page or try again later.</p>
+            </div>}
         </main>
     );
 }
